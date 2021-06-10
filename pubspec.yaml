@@ -1,0 +1,77 @@
+name: flutter_app_burger
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_staggered_grid_view: ^0.3.3
+  font_awesome_flutter: ^8.4.0
+  get: ^3.13.2
+  transparent_image: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - images/
+    - images/burger/0.png
+    - images/burger/1.png
+    - images/burger/2.png
+    - images/burger/3.png
+    - images/burger/4.png
+    - images/burger/5.png
+    - images/burger/6.png
+    - images/combo/0.png
+    - images/combo/1.png
+    - images/combo/2.png
+    - images/combo/3.png
+    - images/combo/4.png
+    - images/combo/5.png
+    - images/insect/0.png
+    - images/insect/1.png
+    - images/insect/2.png
+    - images/insect/3.png
+    - images/insect/4.png
+    - images/insect/5.png
+    - images/grill/0.png
+    - images/grill/1.png
+    - images/grill/2.png
+    - images/grill/3.png
+    - images/grill/4.png
+    - images/grill/5.png
+
+
+
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
